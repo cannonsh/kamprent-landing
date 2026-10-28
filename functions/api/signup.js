@@ -2,7 +2,7 @@
 // Stores one row per email in the D1 database bound as DB (see schema.sql).
 
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-const ROLES = new Set(['najemnik', 'lastnik']);
+const ROLES = new Set(['renter', 'owner']);
 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), {
