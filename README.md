@@ -22,7 +22,7 @@ The form needs the Pages Function, so for a full test use `npx wrangler pages de
 1. Connect this repo as a Pages project, no build command, output directory `/`.
 2. Bind the D1 database `kamprent-landing` to the project as `DB` (Settings, Bindings). The table is created from `schema.sql`.
 3. Point `kamprent.si` at the project.
-4. Email Routing forwards `info@kamprent.si`; it needs the zone to be active (nameservers switched).
+4. Email Routing forwards `hello@kamprent.si`; it needs the zone to be active (nameservers switched).
 
 ## Before publishing
 
